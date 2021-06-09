@@ -1,10 +1,15 @@
 package org.fasttrackit;
 
-public class App 
+import java.util.Scanner;
+
+public class App
 {
-    public static void main( String[] args )
+    public static void main( String[] args ) throws Exception
 
     {
+        Scanner scanner = new Scanner(System.in);
+        int x;
+        int y;
         Parent parent = new Parent(9);
 
         parent.divide(100, 5);
@@ -21,6 +26,13 @@ public class App
          Parent object = new Child(125); // object e un obiect de tip Child (cu referinta stocata in Parent)
 
          object.function(5,4);  // metoda function e statica, deci nu poate fi overridden => object va apela metoda din superclasa, nu cea din subclasa
+
+        System.out.println("x=");
+        x=scanner.nextInt();
+        System.out.println("y=");
+        y= scanner.nextInt();
+
+        parent.method(x,y);
 
     }
 

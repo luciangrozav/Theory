@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4db7971e-f40f-46f8-9e70-204fbea37fc5" name="Default Changelist" comment="" />
+    <list default="true" id="4db7971e-f40f-46f8-9e70-204fbea37fc5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/fasttrackit/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/fasttrackit/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/fasttrackit/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/fasttrackit/Parent.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../racing-game" />
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -72,11 +78,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623222722787</updated>
-      <workItem from="1623222723924" duration="4695000" />
+      <workItem from="1623222723924" duration="6305000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

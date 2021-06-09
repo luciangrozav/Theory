@@ -1,5 +1,7 @@
 package org.fasttrackit;
 
+import java.util.InputMismatchException;
+
 public class Parent {
 
 
@@ -26,6 +28,16 @@ public class Parent {
         public static void function(int a, int b)  // metoda static function se stocheaza in memoria clasei Parent, deci nu are nevoie neaparat de un obiect pt a putea fi folosita
         {
             System.out.println((a+3)*Math.pow(b, 3));
+        }
+
+        public void method(int a, int b) throws Exception
+        {
+            try
+            {System.out.println(Math.pow(a,2) + Math.pow(b,3));}
+            catch (InputMismatchException e)
+            {throw new Exception("You have entered an invalid value!");}
+            catch (ArrayIndexOutOfBoundsException e)
+            {throw new RuntimeException("You have entered an invalid number!");}
         }
 
 }
