@@ -1,9 +1,11 @@
 package org.fasttrackit;
 
 import java.util.InputMismatchException;
+import java.util.Scanner;
 
 public class Parent {
 
+    Scanner scanner = new Scanner(System.in);
 
     public void multiple(int a, int b, int c, int d)  // method multiple -overriden - polimorfism dinamic
         {
@@ -33,11 +35,28 @@ public class Parent {
         public void method(int a, int b) throws Exception
         {
             try
-            {System.out.println(Math.pow(a,2) + Math.pow(b,3));}
+            {
+                System.out.println((Math.pow(a,2) + Math.pow(b,3)));}
             catch (InputMismatchException e)
-            {throw new Exception("You have entered an invalid value!");}
-            catch (ArrayIndexOutOfBoundsException e)
-            {throw new RuntimeException("You have entered an invalid number!");}
+            {throw new Exception("You have entered an invalid value!");
+            }
+
+        }
+
+        public int method2()
+        {
+            int a;
+            System.out.println("a=");
+            a= scanner.nextInt();
+
+            try
+            {
+                return a*a;
+            } catch (ArrayIndexOutOfBoundsException e)
+            {
+                System.out.println("Invalid value, please try again!");
+                return method2();
+            }
         }
 
 }

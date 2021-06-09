@@ -34,6 +34,8 @@ public class App
 
         parent.method(x,y);
 
+        parent.method2();
+
     }
 
 }
