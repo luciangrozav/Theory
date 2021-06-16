@@ -19,7 +19,6 @@ public class App
 
         Child child = new Child(625);
 
-         child.multiple(3,3);
 
          Parent.function(5, 4);
 
